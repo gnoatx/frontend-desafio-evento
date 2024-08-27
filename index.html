@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./css/global.css"/>
+  <link rel="stylesheet" href="./css/styles.css"/>
+  <link rel="stylesheet" href="./css/checkbox.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+  <title>Cadastro para o Tech Conference 2024</title>
+</head>
+<body>
+  <div class="container">
+    <video id="video-header" autoplay muted loop poster="./media/circuit-still.webp">
+      <source src="./media/circuit.mp4" type="video/mp4">
+    </video>
+    <header class="header">
+      <h1 class="focus">
+        <span class="extrabold">T</span>ech <span class="extrabold">C</span>onference 20<span class="extrabold">24</span>
+      </h1>
+      <div class="attribution">
+        Vídeo por <a href="https://pixabay.com/users/motionstock-13298494/?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=27725">motionstock</a> obtido em <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=video&utm_content=27725">Pixabay</a>
+      </div>
+    </header>
+    <section id="register">
+      <form>
+        <fieldset>
+          <legend>Cadastro</legend>
+
+          <label for="name">Nome</label>
+          <input type="text" name="" id="name"
+            class="input-style"
+          />
+
+          <label for="email">E-mail</label>
+          <input type="email" name="" id="email"
+            class="input-style"
+          />
+
+          <label for="phone">Telefone</label>
+          <input type="tel" name="" id="phone"
+            class="input-style"
+          />
+        </fieldset>
+        <fieldset>
+          <legend>Seleção de Workshops</legend>
+          <div class="checkbox-list">
+            <div class="workshop">
+              <label class="checkbox">
+                <input type="checkbox" name="" id="private"/>
+                <span class="checkmark"></span>
+                Análise de dados com Python
+              </label>
+            </div>
+
+            <div class="workshop">
+              <label class="checkbox">
+                <input type="checkbox" name="" id="private"/>
+                <span class="checkmark"></span>
+                Cloud Computing
+              </label>
+            </div>
+
+            <div class="workshop">
+              <label class="checkbox">
+                <input type="checkbox" name="" id="private"/>
+                <span class="checkmark"></span>
+                Java com Spring Boot
+              </label>
+            </div>
+            
+            <div class="workshop">
+              <label class="checkbox">
+                <input type="checkbox" name="" id="private"/>
+                <span class="checkmark"></span>
+                React para Iniciantes
+              </label>
+            </div>
+
+            <div class="workshop">
+              <label class="checkbox">
+                <input type="checkbox" name="" id="private"/>
+                <span class="checkmark"></span>
+                SQL para Iniciantes
+              </label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Gostaria de receber nossas Newsletters?</legend>
+          <div class="radio-options">
+            <label class="radio">
+              <input type="radio" name="news" id="news-yes"/>
+              <span class="radio-button"></span>
+              Sim
+            </label>
+
+            <label class="radio">
+              <input type="radio" name="news" id="news-no"/>
+              <span class="radio-button"></span>
+              Não
+            </label>
+          </div>
+        </fieldset>
+        <button type="submit">Cadastrar</button>
+      </form>
+    </section>
+    <section id="about">
+      <p>O Tech Conference 2024 é o maior evento de tecnologia do ano, reunindo especialistas de todo o mundo para discutir inovações e tendências.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas error eaque necessitatibus assumenda eligendi! Quis dolorum minus ex molestias. Tempora quam itaque velit repellendus amet nemo perferendis maiores laudantium vero.</p>
+      <p>Eius quo quos dolorem aut soluta dolore neque voluptates deserunt saepe cupiditate, hic quae quod libero doloremque a atque corporis, possimus, eaque molestias? Eligendi itaque optio commodi dicta tempore ea?</p>
+    </section>
+    <footer class="footer">
+
+    </footer>
+  </div>
+</body>
+</html>
